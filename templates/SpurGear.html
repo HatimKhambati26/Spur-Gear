@@ -11,37 +11,136 @@
         <table>
             <tr>
                 <td>
-                    <label for="P">Enter Power transmitted (P) in kW : </label>
+                    <label for="sf">Enter the value of Service Factor: </label>
                 </td>
                 <td>
-                    <input name="P" type="number">
+                    <label>
+                        <input name="sf" type="number">
+                    </label>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label for="N1">Enter prime mover speed (N1) in rpm: </label>
+                    <label for="press_ang">Enter Pressure angle in degrees: </label>
                 </td>
                 <td>
-                    <input name="N1" type="number">
+                    <label>
+                        <input name="press_ang" type="number">
+                    </label>
                 </td>
             </tr>
             <tr>
-                <td><label>Select from Follow Choices</label></td>
                 <td>
-                    <tr>
-                        <td>
-                            <input type="radio" name="choice" value=1>
-                            <label>1. Reduction ratio(i).</label>
-                        </td>
-                        <td>
-                            <input type="radio" name="choice" value=2>
-                            <label>2. Speed of the application (N2) in rpm.</label>
-                        </td>
-                    </tr>
+                    <label for="gear_qua">Select Gear Quality: </label>
                 </td>
+                <td>
+                    <label>
+                        <select name="gear_qua">
+                            <option value="1">Precision Gears</option>
+                            <option value="2">Carefully Cut Gears</option>
+                            <option value="3">First Class Commercial Gears</option>
+                        </select>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pinion">Select Material for Pinion: </label>
+                </td>
+                <td>
+                    <label>
+                        <select name="pinion">
+                            <option value="1">C50</option>
+                            <option value="2">C55Mn75</option>
+                            <option value="3">40Crl</option>
+                            <option value="4">35NilCr60</option>
+                            <option value="5">C45</option>
+                            <option value="6">15Ni2CrlMo25</option>
+                            <option value="7">40Ni2CrlMo28</option>
+                        </select>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="FoS1">Enter Factor of Safety: </label>
+                </td>
+                <td>
+                    <label>
+                        <input name="FoS1" type="number">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="BHN1">Enter Brinell Hardness Number: </label>
+                </td>
+                <td>
+                    <label>
+                        <input name="BHN1" type="number">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gear">Select Material for Gear: </label>
+                </td>
+                <td>
+                    <label>
+                        <select name="gear">
+                            <option value="1">C50</option>
+                            <option value="2">C55Mn75</option>
+                            <option value="3">40Crl</option>
+                            <option value="4">35NilCr60</option>
+                            <option value="5">C45</option>
+                            <option value="6">15Ni2CrlMo25</option>
+                            <option value="7">40Ni2CrlMo28</option>
+                        </select>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="FoS2">Enter Factor of Safety: </label>
+                </td>
+                <td>
+                    <label>
+                        <input name="FoS2" type="number">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="BHN2">Enter Brinell Hardness Number: </label>
+                </td>
+                <td>
+                    <label>
+                        <input name="BHN2" type="number">
+                    </label>
+                </td>
+            </tr>
+{#            <tr>#}
+{#                <td><label>Select from Follow Choices</label></td>#}
+{#                <td>#}
+{#                    <tr>#}
+{#                        <td>#}
+{#                            <input type="radio" name="choice" value=1>#}
+{#                            <label>1. Reduction ratio(i).</label>#}
+{#                        </td>#}
+{#                        <td>#}
+{#                            <input type="radio" name="choice" value=2>#}
+{#                            <label>2. Speed of the application (N2) in rpm.</label>#}
+{#                        </td>#}
+{#                    </tr>#}
+{#                </td>#}
+{#            </tr>#}
+            <tr>
+                <td></td>
+                <td><input type="submit" class="button_submit" value="Calculate"></td>
+                <td></td>
             </tr>
         </table>
-        <input type="submit">
+
     </form>
 </body>
 </html>

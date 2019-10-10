@@ -1,5 +1,4 @@
 import math
-
 P = int(input("Enter Power transmitted (P) in kW : "))
 N1 = int(input("Enter prime mover speed (N1) in rpm: "))
 choice = float(input("Select \n1.Reduction ratio(i) OR \n2.Speed of the application (N2) in rpm:\n"))
@@ -95,7 +94,7 @@ def root():
                 BHN2 = int(input("Enter Brinell Hardness Number= "))
             if gear == 6:
                 benstr2 = 300
-                print("Bending stress= ", round(benstrr2, 2))
+                print("Bending stress= ", round(benstr2, 2))
                 BHN2 = int(input("Enter Brinell Hardness Number= "))
             if gear == 7:
                 benstr2 = 380
@@ -591,7 +590,7 @@ def root():
             BHN2 = int(input("Enter Brinell Hardness Number= "))
         if gear == 6:
             benstr2 = 300
-            print("Bending stress= ", round(benstrr2, 2))
+            print("Bending stress= ", round(benstr2, 2))
             BHN2 = int(input("Enter Brinell Hardness Number= "))
         if gear == 7:
             benstr2 = 380
