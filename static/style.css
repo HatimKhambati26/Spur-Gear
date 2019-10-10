@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(270deg, #09203f, #537895);
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+form{
+    align-items: center;
+}

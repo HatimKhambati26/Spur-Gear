@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spur Gear</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1 style="text-align: center">Spur Gear Input</h1>
+    <form method="POST">
+        <table>
+            <tr>
+                <td>
+                    <label for="P">Enter Power transmitted (P) in kW : </label>
+                </td>
+                <td>
+                    <input name="P" type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="N1">Enter prime mover speed (N1) in rpm: </label>
+                </td>
+                <td>
+                    <input name="N1" type="number">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Select from Follow Choices</label></td>
+                <td>
+                    <tr>
+                        <td>
+                            <input type="radio" name="choice" value=1>
+                            <label>1. Reduction ratio(i).</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="choice" value=2>
+                            <label>2. Speed of the application (N2) in rpm.</label>
+                        </td>
+                    </tr>
+                </td>
+            </tr>
+        </table>
+        <input type="submit">
+    </form>
+</body>
+</html>
