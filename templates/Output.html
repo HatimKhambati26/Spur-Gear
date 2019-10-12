@@ -6,19 +6,16 @@
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-{#<div class="containerG">#}
-{#  <div class="gear one"></div>#}
-{#  <div class="gear two"></div>#}
-{#  <div class="gear three"></div>#}
-{#  <div class="gear four"></div>#}
-{#  <div class="gear five"></div>#}
-{#  <div class="gear six"></div>#}
-{#</div>#}
+<div class="containerG">
+  <div class="gear one"></div>
+  <div class="gear two"></div>
+  <div class="gear three"></div>
+  <div class="gear four"></div>
+  <div class="gear five"></div>
+  <div class="gear six"></div>
+</div>
 <div class="container">
     {% if i <= 5 %}
-        <i id="gear1" class="fa fa-5x fa-gear spin"></i>
-        <i id="gear2" class="fa fa-5x fa-gear spin-back"></i>
-        <i id="gear3" class="fa fa-5x fa-gear spin"></i>
         <h1 style="text-align: center">Spur Gear Output</h1>
         <h3>Single Stage Gearbox</h3>
         <h5>Design Power (Pd) is: <u>{{ pd }}</u></h5>
@@ -57,9 +54,7 @@
             <h5 style="text-align: center">Fw = {{ fw }} < Fd = {{ fd }}<br><u>&therefore;Design Is NOT Safe!!!</u></h5>
         {% endif %}
     {% else %}
-        <i id="gear1" class="fa fa-5x fa-gear spin"></i>
-        <i id="gear2" class="fa fa-5x fa-gear spin-back"></i>
-        <i id="gear3" class="fa fa-5x fa-gear spin"></i>
+        <h1 style="text-align: center">Spur Gear Output</h1>
         <h3>For 2<sup>nd</sup> Stage Gearbox</h3>
         <h5>P: <u>{{ p }}</u></h5>
         <h5>N<sub>21</sub>: <u>{{ n12 }}</u></h5>

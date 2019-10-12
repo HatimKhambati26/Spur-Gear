@@ -25,9 +25,7 @@ def calculate(P, N1, i, sf, pinion, FoS1, BHN1, gear, FoS2, BHN2, m, psi, u, gea
     round2 = -9999999999
     N12 = -9999999999
     N22 = -9999999999
-    # = -9999999999
-    # = -9999999999
-    # = -9999999999
+
     if i <= 5:
         while i != 0:
             print("Single stage gearbox")

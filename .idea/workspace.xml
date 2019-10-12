@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7df633bd-4670-423e-963b-bdefb444205e" name="Default Changelist" comment="Added Inputs Page">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpurGear.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Output.html" afterDir="false" />
+    <list default="true" id="7df633bd-4670-423e-963b-bdefb444205e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPUR GEAR.py" beforeDir="false" afterPath="$PROJECT_DIR$/SPUR_GEAR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpurGear.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpurGear.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/Choice1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Choice1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/Choice2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Choice2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Output.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Output.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/SpurGear.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/SpurGear.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/input.html" afterDir="false" />
     </list>
@@ -38,10 +36,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpurGear.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#15518#15549#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="313">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="e#0#68#0" expanded="true" />
               </folding>
@@ -50,10 +60,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/SpurGear.html">
+        <entry file="file://$PROJECT_DIR$/templates/Choice2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2509">
-              <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+            <state relative-caret-position="408">
+              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Choice1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -61,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Output.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+            <state relative-caret-position="952">
+              <caret line="56" column="60" lean-forward="true" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#h5#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#904#915#0#HTML" expanded="true" />
@@ -72,25 +91,42 @@
                 <element signature="e#1594#1605#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#h5#16;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#1673#1684#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#h5#30;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2891#2902#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#h5#31;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#3105#3116#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#h5#36;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#3592#3603#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#h5#37;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#3728#3739#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpurGear.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/SpurGear.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="502" column="19" lean-forward="true" selection-start-line="502" selection-start-column="19" selection-end-line="502" selection-end-column="19" />
+            <state relative-caret-position="-1149">
+              <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/input.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="221">
+              <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -121,6 +157,12 @@
       <find>BHN1 = int(input</find>
       <find>BHN2 = int(input</find>
       <find>{{  }}</find>
+      <find>while BHN &lt; 30</find>
+      <find>weak1 =</find>
+      <find>N12</find>
+      <find>if u == 1:</find>
+      <find>.container</find>
+      <find>/images</find>
     </findStrings>
     <replaceStrings>
       <replace># FoS =</replace>
@@ -129,6 +171,8 @@
       <replace># BHN1 = int(input</replace>
       <replace># BHN2 = int(input</replace>
       <replace>&lt;u&gt;{{  }}&lt;/u&gt;</replace>
+      <replace>.containerG</replace>
+      <replace>images</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -139,14 +183,14 @@
       <list>
         <option value="$PROJECT_DIR$/SPUR GEAR.py" />
         <option value="$PROJECT_DIR$/SPUR_GEAR.py" />
-        <option value="$PROJECT_DIR$/static/style.css" />
-        <option value="$PROJECT_DIR$/templates/Choice2.html" />
         <option value="$PROJECT_DIR$/templates/input.html" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/SpurGear.html" />
         <option value="$PROJECT_DIR$/templates/Choice1.html" />
-        <option value="$PROJECT_DIR$/templates/Output.html" />
+        <option value="$PROJECT_DIR$/templates/Choice2.html" />
+        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/SpurGear.py" />
+        <option value="$PROJECT_DIR$/templates/Output.html" />
+        <option value="$PROJECT_DIR$/static/style.css" />
       </list>
     </option>
   </component>
@@ -309,7 +353,7 @@
       <workItem from="1570629762865" duration="15418000" />
       <workItem from="1570696181652" duration="921000" />
       <workItem from="1570725661149" duration="6315000" />
-      <workItem from="1570880759300" duration="19249000" />
+      <workItem from="1570880759300" duration="29902000" />
     </task>
     <task id="LOCAL-00001" summary="Added Spur Gear Inputs Page">
       <created>1570732400401</created>
@@ -318,11 +362,25 @@
       <option name="project" value="LOCAL" />
       <updated>1570732400401</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Half Completed">
+      <created>1570904280393</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570904280394</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fully Completed">
+      <created>1570914029602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570914029602</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41903000" />
+    <option name="totallyTimeSpent" value="52556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -379,7 +437,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Spur Gear Inputs Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Spur Gear Inputs Page" />
+    <MESSAGE value="First Half Completed" />
+    <MESSAGE value="Fully Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fully Completed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SpurGear$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1570643287169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -403,55 +463,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/style.css">
+    <entry file="file://$PROJECT_DIR$/SpurGear.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+        <state relative-caret-position="356">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#15518#15549#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="313">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="e#0#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Choice1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Choice2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        <state relative-caret-position="408">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/SpurGear.html">
+    <entry file="file://$PROJECT_DIR$/templates/Choice1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2509">
-          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Output.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+        <state relative-caret-position="952">
+          <caret line="56" column="60" lean-forward="true" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#h5#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#904#915#0#HTML" expanded="true" />
@@ -461,14 +510,36 @@
             <element signature="e#1594#1605#0#HTML" expanded="true" />
             <element signature="n#style#0;n#h5#16;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#1673#1684#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#h5#30;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2891#2902#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#h5#31;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3105#3116#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#h5#36;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3592#3603#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#h5#37;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3728#3739#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpurGear.py">
+    <entry file="file://$PROJECT_DIR$/templates/SpurGear.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="502" column="19" lean-forward="true" selection-start-line="502" selection-start-column="19" selection-end-line="502" selection-end-column="19" />
+        <state relative-caret-position="-1149">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
         </state>
       </provider>
     </entry>
