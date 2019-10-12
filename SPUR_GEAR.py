@@ -6,7 +6,7 @@ choice = float(input("Select \n1.Reduction ratio(i) OR \n2.Speed of the applicat
 
 def root():
     if i <= 5:
-        while i != 0:
+        while  i != 0:
             print("Single stage gearbox")
             N2 = N1 / i
             print("N2=", round(N2, 2))
@@ -497,8 +497,7 @@ def root():
             break
 
     else:
-        global round2, e, Cv, Ft, Vm, benstr2, benstr1, BHN2, BHN1, b, m, Fd, Fs, e, Cv, Fd, e, Cv
-        global benstr2, benstr1, BHN2, BHN1
+        global round2
         round2 = math.sqrt(i)
         N2 = N1 / round2
         print("N2= ", round(N2, 2))

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
+<div class="container">
     <h1 style="text-align: center">Spur Gear Input</h1>
     <form method="POST">
         <table>
@@ -15,17 +16,17 @@
                 </td>
                 <td>
                     <label>
-                        <input name="sf" type="number">
+                        <input name="sf" type="number" step="any">
                     </label>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label for="press_ang">Enter Pressure angle in degrees: </label>
+                    <label for="pres_ang">Enter Pressure angle in degrees: </label>
                 </td>
                 <td>
                     <label>
-                        <input name="press_ang" type="number">
+                        <input name="pres_ang" type="number">
                     </label>
                 </td>
             </tr>
@@ -119,28 +120,69 @@
                     </label>
                 </td>
             </tr>
-{#            <tr>#}
-{#                <td><label>Select from Follow Choices</label></td>#}
-{#                <td>#}
-{#                    <tr>#}
-{#                        <td>#}
-{#                            <input type="radio" name="choice" value=1>#}
-{#                            <label>1. Reduction ratio(i).</label>#}
-{#                        </td>#}
-{#                        <td>#}
-{#                            <input type="radio" name="choice" value=2>#}
-{#                            <label>2. Speed of the application (N2) in rpm.</label>#}
-{#                        </td>#}
-{#                    </tr>#}
-{#                </td>#}
-{#            </tr>#}
+            <tr>
+                <td>
+                    <label for="m">Enter Module to be selected: </label>
+                </td>
+                <td>
+                    <label>
+                        <input name="m" type="number">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="psi">Enter the values of psi: </label>
+                </td>
+                <td>
+                    <label>
+                        <input name="psi" type="number">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Select the method to calculate dynamic load</label></td>
+                <td>
+            <tr>
+                <td>
+                    <label>
+                        <input type="radio" name="u" value=1>
+                    </label>
+                    <label>1. Barth velocity method</label>
+                </td>
+                <td>
+                    <label>
+                        <input type="radio" name="u" value=2>
+                    </label>
+                    <label>2. Buckingham method</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="E1">Enter the value of E1: </label>
+                </td>
+                <td>
+                    <label>
+                        <input name="E1" type="number" step="any">
+                    </label>
+                </td>
+            </tr><tr>
+                <td>
+                    <label for="E2">Enter the value of E2: </label>
+                </td>
+                <td>
+                    <label>
+                        <input name="E2" type="number" step="any">
+                    </label>
+                </td>
+            </tr>
             <tr>
                 <td></td>
                 <td><input type="submit" class="button_submit" value="Calculate"></td>
-                <td></td>
             </tr>
         </table>
 
     </form>
+</div>
 </body>
 </html>

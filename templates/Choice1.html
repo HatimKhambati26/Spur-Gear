@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
+<div class="container">
     <h1 style="text-align: center">Choice 1</h1>
     <form method="POST">
         <table>
@@ -14,11 +15,18 @@
                     <label for="i">Enter i: </label>
                 </td>
                 <td>
-                    <input name="i" type="number">
+                    <label>
+                        <input name="i" type="number" step="any">
+                    </label>
                 </td>
             </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" class="button_submit" value="Calculate"></td>
+            </tr>
         </table>
-        <input type="submit">
+
     </form>
+</div>
 </body>
 </html>

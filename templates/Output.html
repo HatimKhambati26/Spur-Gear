@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spur Gear</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+    <h1 style="text-align: center">Spur Gear Output</h1>
+    <h3>Single Stage Gearbox</h3>
+    <h5>Design Power (Pd) is: <u>{{ pd }}</u></h5>
+    <h5>Z<sub>1</sub> : <u>{{ z1 }}</u></h5>
+    <h5>Z<sub>2</sub> : <u>{{ z2 }}</u></h5>
+    <h5>Lewis form factor of pinion Y1: <u>{{ y1 }}</u></h5>
+    <h5>Lewis form factor of gear Y2: <u>{{ y2 }}</u></h5>
+    <h5>Bending Stress 1: <u>{{ benstr1 }}</u></h5>
+    <h5>Bending Stress 2: <u>{{ benstr2 }}</u></h5>
+    {% if BHN < 30 %}
+        <h5>BHN: <u>{{ BHN }}</u> < 30</h5>
+    {% else %}
+        <h5>BHN: <u>{{ BHN }}</u> >= 30</h5>
+    {% endif %}
+    {% if weak1 < weak2 %}
+        <h5 style="text-align: center">Since, Strength of Pinion = {{ weak1 }} < Strength of Gear = {{ weak2 }}<br><u>&therefore;Pinion
+            is Weaker</u></h5>
+    {% else %}
+        <h5 style="text-align: center">Since, Strength of Pinion = {{ weak1 }} > Strength of Gear = {{ weak2 }}<br><u>&therefore;Gear
+            is Weaker</u></h5>
+    {% endif %}
+    <h5>Module : <u>{{ m1 }}</u></h5>
+    <h5>b : <u>{{ b }}</u></h5>
+    <h5>Fs : <u>{{ fs }}</u></h5>
+    <h5>Dynamic Load: <u>{{ fd }}</u></h5>
+    {% if fs > fd %}
+        <h2>Design is Safe!!!</h2>
+    {% else %}
+        <h2>Design is NOT Safe!!!</h2>
+    {% endif %}
+    {% if fw > fd %}
+        <h5 style="text-align: center">Fw = {{ fw }} > Fd = {{ fd }}<br><u>&therefore;Design Is Safe!!!</u></h5>
+    {% else %}
+        <h5 style="text-align: center">Fw = {{ fw }} < Fd = {{ fd }}<br><u>&therefore;Design Is NOT Safe!!!</u></h5>
+    {% endif %}
+    {#    <h5>: <u>{{  }}</u></h5>#}
+    {#    <h5>: <u>{{  }}</u></h5>#}
+    {#    <h5>: <u>{{  }}</u></h5>#}
+    {#    <h5>: <u>{{  }}</u></h5>#}
+    {#    <h5>: <u>{{  }}</u></h5>#}
+
+
+</div>
+</body>
+</html>
