@@ -5,11 +5,12 @@ choice = float(input("Select \n1.Reduction ratio(i) OR \n2.Speed of the applicat
 
 
 def root():
+    global round2, e, Cv, Ft, Vm, benstr2, benstr1, BHN2, BHN1, b, m, Fd, Fs
     if i <= 5:
-        while  i != 0:
+        while i != 0:
             print("Single stage gearbox")
-            N2 = N1 / i
-            print("N2=", round(N2, 2))
+            N21 = N1 / i
+            print("N2=", round(N21, 2))
 
             sf = float(input("Enter value of service factor(Sf): "))
             Pd = P * sf
@@ -308,7 +309,7 @@ def root():
                 break
             # WHEN GEAR IS WEAKER
             if weak2 < weak1:
-                Mt1 = (9.55 * 1000000 * Pd) / N2
+                Mt1 = (9.55 * 1000000 * Pd) / N21
                 m1 = 1.26 * pow(Mt1 / (Y2 * benstr2 * 10 * z2), 0.33)
                 print("Module= ", round(m1, 2))
                 m = int(input("Enter module to be selected: "))
@@ -324,7 +325,7 @@ def root():
                 if u == 1:
                     d2 = m * z2
                     Ft = (2 * Mt1) / d2
-                    Vm = (math.pi * d2 * N2) / 60000
+                    Vm = (math.pi * d2 * N21) / 60000
                     if gear_qua == 1:
                         Cv = (5.5 + math.sqrt(Vm)) / 5.5
                     if gear_qua == 2:
@@ -336,7 +337,7 @@ def root():
                     if u == 2:
                         d2 = m * z2
                         Ft = (2 * Mt1) / d2
-                        Vm = (math.pi * d2 * N2) / 60000
+                        Vm = (math.pi * d2 * N21) / 60000
                         # PRECISION GEARS
                         if m <= 4 and gear_qua == 1:
                             e = 0.0125
@@ -391,7 +392,7 @@ def root():
             else:
                 while Fs < Fd:
                     print("\nFs= ", round(Fs, 2), " < Fd= ", round(Fd, 2), "\nDesign is not safe")
-                    Mt1 = (9.55 * 1000000 * Pd) / N2
+                    Mt1 = (9.55 * 1000000 * Pd) / N21
                     m = int(input("Enter module to be selected: "))
                     psi = int(input("Enter the values of psi"))
                     b = psi * m
@@ -405,7 +406,7 @@ def root():
                     if u == 1:
                         d2 = m * z2
                         Ft = (2 * Mt1) / d2
-                        Vm = (math.pi * d2 * N2) / 60000
+                        Vm = (math.pi * d2 * N21) / 60000
                         if gear_qua == 1:
                             Cv = (5.5 + math.sqrt(Vm)) / 5.5
                         if gear_qua == 2:
@@ -417,7 +418,7 @@ def root():
                     if u == 2:
                         d2 = m * z2
                         Ft = (2 * Mt1) / d2
-                        Vm = (math.pi * d2 * N2) / 60000
+                        Vm = (math.pi * d2 * N21) / 60000
                         # PRECISION GEARS
                         if m <= 4 and gear_qua == 1:
                             e = 0.0125
@@ -497,10 +498,9 @@ def root():
             break
 
     else:
-        global round2
         round2 = math.sqrt(i)
-        N2 = N1 / round2
-        print("N2= ", round(N2, 2))
+        N21 = N1 / round2
+        print("N2= ", round(N21, 2))
         i1 = i2 = round2
         N21 = N1 / i1
         N12 = N21
