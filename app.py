@@ -76,13 +76,15 @@ def spur_input():
         # = int(request.form[''])
         # = int(request.form[''])
 
-        pd, z1, z2, y1, y2, benstr1, benstr2, BHN, weak1, weak2, m1, b, fs, fd, fw = calculate(p, n1, i, sf, pinion, FoS1,
-                                                                                           BHN1, gear, FoS2, BHN2, m,
-                                                                                           psi, u, gear_qua, pres_ang,
-                                                                                           e1, e2)
+        pd, z1, z2, y1, y2, benstr1, benstr2, BHN, weak1, weak2, m1, b, fs, fd, fw, n12, n22, round2 = calculate(p, n1, i, sf, pinion,
+                                                                                               FoS1, BHN1, gear, FoS2,
+                                                                                               BHN2, m, psi, u,
+                                                                                               gear_qua, pres_ang, e1,
+                                                                                               e2)
         # return str(sf) + str(press_ang)+str(gear_qua)+str(pinion)+str(FoS1)+str(BHN1)+str(gear)+str(FoS2)+str(BHN2)
-        return render_template('Output.html', pd=pd, z1=z1, z2=z2, y1=y1, y2=y2, benstr1=benstr1, benstr2=benstr2,
-                               BHN=BHN, weak1=weak1, weak2=weak2, m1=m1, b=b, fs=fs, fd=fd, fw=fw)
+        return render_template('Output.html', i=i, p=p, n1=n1, pd=pd, z1=z1, z2=z2, y1=y1, y2=y2, benstr1=benstr1,
+                               benstr2=benstr2, BHN=BHN, weak1=weak1, weak2=weak2, m1=m1, b=b, fs=fs, fd=fd, fw=fw,
+                               n12=n12, n22=n22, round2=round2)
     return render_template('SpurGear.html')
 
 

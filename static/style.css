@@ -27,3 +27,151 @@ form {
     flex-direction: column;
     align-items: center;
 }
+
+
+/*Gear Animation*/
+
+html {
+    box-sizing: border-box;
+}
+
+/*.containerG {*/
+/*    width: 480px;*/
+/*    height: 328px;*/
+/*    margin: 20px;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    position: fixed;*/
+/*}*/
+
+/*.containerG .gear {*/
+/*    position: absolute;*/
+/*}*/
+
+/*.containerG .gear.one {*/
+/*    top: 33%;*/
+/*    width: 31.7%;*/
+/*    height: 46%;*/
+/*    background: url("images/gear-one.png") no-repeat;*/
+/*    background-size: cover;*/
+/*    -webkit-animation: rotate 10s linear;*/
+/*    -moz-animation: rotate 10s linear;*/
+/*    animation: rotate 10s linear;*/
+/*    -webkit-animation-iteration-count: infinite;*/
+/*    -moz-animation-iteration-count: infinite;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+
+
+/*.containerG .gear.two {*/
+/*    top: 66%;*/
+/*    left: 24.2%;*/
+/*    width: 23.7%;*/
+/*    height: 34.6%;*/
+/*    background: url("images/gear-two.png") no-repeat;*/
+/*    background-size: cover;*/
+/*    -webkit-animation: rotate 10s linear reverse;*/
+/*    -moz-animation: rotate 10s linear reverse;*/
+/*    animation: rotate 10s linear reverse;*/
+/*    -webkit-animation-iteration-count: infinite;*/
+/*    -moz-animation-iteration-count: infinite;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+
+/*.containerG .gear.three {*/
+/*    top: 49%;*/
+/*    left: 40.2%;*/
+/*    width: 17.6%;*/
+/*    height: 25.7%;*/
+/*    background: url("images/gear-three.png") no-repeat;*/
+/*    background-size: cover;*/
+/*    -webkit-animation: rotate 6.75s linear;*/
+/*    -moz-animation: rotate 6.75s linear;*/
+/*    animation: rotate 6.75s linear;*/
+/*    -webkit-animation-iteration-count: infinite;*/
+/*    -moz-animation-iteration-count: infinite;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+
+/*.containerG .gear.four {*/
+/*    top: 44%;*/
+/*    left: 56.5%;*/
+/*    width: 24%;*/
+/*    height: 35%;*/
+/*    background: url("images/gear-four.png") no-repeat;*/
+/*    background-size: cover;*/
+/*    -webkit-animation: rotate 10s linear reverse;*/
+/*    -moz-animation: rotate 10s linear reverse;*/
+/*    animation: rotate 10s linear reverse;*/
+/*    -webkit-animation-iteration-count: infinite;*/
+/*    -moz-animation-iteration-count: infinite;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+
+/*.containerG .gear.five {*/
+/*    left: 51%;*/
+/*    width: 31.2%;*/
+/*    height: 45.6%;*/
+/*    background: url("images/gear-five.png") no-repeat;*/
+/*    background-size: cover;*/
+/*    -webkit-animation: rotate 10.5s linear;*/
+/*    -moz-animation: rotate 10.5s linear;*/
+/*    animation: rotate 10.5s linear;*/
+/*    -webkit-animation-iteration-count: infinite;*/
+/*    -moz-animation-iteration-count: infinite;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+
+/*.containerG .gear.six {*/
+/*    top: 10%;*/
+/*    left: 81.5%;*/
+/*    width: 17%;*/
+/*    height: 24.9%;*/
+/*    background: url("images/gear-six.png") no-repeat;*/
+/*    background-size: cover;*/
+/*    -webkit-animation: rotate 7s linear reverse;*/
+/*    -moz-animation: rotate 7s linear reverse;*/
+/*    animation: rotate 7s linear reverse;*/
+/*    -webkit-animation-iteration-count: infinite;*/
+/*    -moz-animation-iteration-count: infinite;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+
+
+/*@-webkit-keyframes rotate {*/
+/*    100% {*/
+/*        -webkit-transform: rotate(360deg);*/
+/*    }*/
+/*}*/
+
+/*@-moz-keyframes rotate {*/
+/*    100% {*/
+/*        -moz-transform: rotate(360deg);*/
+/*    }*/
+/*}*/
+
+/*@keyframes rotate {*/
+/*    100% {*/
+/*        -webkit-transform: rotate(360deg);*/
+/*        -moz-transform: rotate(360deg);*/
+/*        -ms-transform: rotate(360deg);*/
+/*        -o-transform: rotate(360deg);*/
+/*        transform: rotate(360deg);*/
+/*    }*/
+/*}*/
+
+
+/*!*Scrollbar*!*/
+/*body::-webkit-scrollbar {*/
+/*    width: 5px;*/
+/*    background-color: #09203f;*/
+/*}*/
+
+/*body::-webkit-scrollbar-track {*/
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);*/
+/*}*/
+
+/*body::-webkit-scrollbar-thumb {*/
+/*    background-color: #537895;*/
+/*    outline: 1px solid #0F3861;*/
+/*}*/
